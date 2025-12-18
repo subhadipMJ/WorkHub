@@ -5,6 +5,7 @@ composer install --no-dev --optimize-autoloader
 npm install
 npm run build
 php artisan optimize
+php artisan optimize:clear
 """
 
 [start]
